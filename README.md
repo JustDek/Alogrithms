@@ -5,6 +5,6 @@ about problem or solution also there might be solutions rewrote from other langu
 
 ## Links
 * ### Graphs
-  * [Travelling Salesman Problem (Dynamic Programming Recursive)](https://github.com/JustDek/Alogrithms/blob/master/Alogrithms/GraphTheory/TravellingSalesmanProblemDP.cs)
+  * Travelling Salesman Problem (DP Recursive) [Code](https://github.com/JustDek/Alogrithms/blob/master/Alogrithms/GraphTheory/TravellingSalesmanProblemDP.cs)
     * [GeeksForGeeks](https://www.geeksforgeeks.org/travelling-salesman-problem-set-1)
     * [Youtube](https://www.youtube.com/watch?v=XaXsJJh-Q5Y)
