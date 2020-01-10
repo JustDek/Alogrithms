@@ -96,6 +96,7 @@ namespace Alogrithms.GraphTheory
                 return cost[node, state];
             }
 
+
             int minCost = int.MaxValue;
             int index = -1;
             for (int next = 0; next < N; next++)
@@ -138,6 +139,7 @@ namespace Alogrithms.GraphTheory
             {
                 Console.Write("{0} ", node);
             }
+
         }
     }
 }
