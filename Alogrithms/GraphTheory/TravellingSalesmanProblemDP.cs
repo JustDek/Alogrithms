@@ -139,7 +139,8 @@ namespace Alogrithms.GraphTheory
             {
                 Console.Write("{0} ", node);
             }
-
+        // Cost: 80
+        // Path: 0 1 3 2 0
         }
     }
 }

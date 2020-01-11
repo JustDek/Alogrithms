@@ -1,4 +1,14 @@
-﻿using System;
+﻿/*
+ 1. A matrix is initialized measuring in the (m, n) cell the Levenshtein distance between the m-character
+    prefix of one with the n-prefix of the other word.
+ 2. The matrix can be filled from the upper left to the lower right corner.
+ 3. Each jump horizontally or vertically corresponds to an insert or a delete, respectively.
+ 4. The cost is normally set to 1 for each of the operations.
+ 5. The diagonal jump can cost either one, if the two characters in the row and column do not match else 0, 
+    if they match. Each cell always minimizes the cost locally.
+ 6. This way the number in the lower right corner is the Levenshtein distance between both words.
+*/
+using System;
 using System.Collections.Generic;
 using System.Text;
 
@@ -62,7 +72,7 @@ namespace Alogrithms.DynamicProgramming
         static void Main(string[] args)
         {
             LevenshteinDistance editDistance = new LevenshteinDistance("kitten", "sitting");
-            Console.WriteLine(editDistance.Distance);
+            Console.WriteLine(editDistance.Distance); // Output: 3
         }
 
     }

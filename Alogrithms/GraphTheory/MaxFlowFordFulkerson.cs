@@ -1,4 +1,10 @@
-﻿using System;
+﻿/* Ford-Fulkerson Algorithm 
+The following is simple idea of Ford-Fulkerson algorithm:
+1. Start with initial flow as 0.
+2. While there is a augmenting path from source to sink. Add this path-flow to flow.
+3. Return flow */
+
+using System;
 using System.Collections.Generic;
 using System.Text;
 
@@ -50,9 +56,7 @@ namespace Alogrithms.GraphTheory
                         queue.Enqueue(next);
                         path[next] = node;
                     }
-
                 }
-
             }
 
             return visited[sink];
@@ -99,7 +103,7 @@ namespace Alogrithms.GraphTheory
                             {0, 0, 0, 7, 0, 4},
                             {0, 0, 0, 0, 0, 0} };
             MaxFlowFordFulkerson maxFlow = new MaxFlowFordFulkerson(graph, 0, 5);
-            Console.WriteLine(maxFlow.MaxFlow);
+            Console.WriteLine(maxFlow.MaxFlow); // Output: 23
 
         }
     }
