@@ -26,6 +26,10 @@ namespace Alogrithms.GraphTheory
            else false. Also store path.*/
         private bool BFS(int[,] matrix, int source, int sink, int[] path)
         {
+            /*Find augmenting path. Agumenting path can be done
+             in two ways: 
+             1. Non-full forward edges
+             2. Non-empty backward edges*/
 
             bool[] visited = new bool[N];
             visited[source] = true;
