@@ -12,3 +12,7 @@ about problem or solution also there might be solutions rewrote from other langu
 * ### Dynamic Programming
   * Levenshtein distance [Code](https://github.com/JustDek/Alogrithms/blob/master/Alogrithms/DynamicProgramming/LevenshteinDistance.cs)
     * [Youtube Back To Back SWE](https://www.youtube.com/watch?v=MiqoA-yF-0M)
+  * Maximum Flow Ford-Fulkerson [Code](https://github.com/JustDek/Alogrithms/blob/master/Alogrithms/GraphTheory/MaxFlowFordFulkerson.cs)
+    * [Youtube Back To Back SWE](https://www.youtube.com/watch?v=oHy3ddI9X3o)
+    * [Youtube Tutorials Point](https://www.youtube.com/watch?v=3LG-My_MoWc&t=422s)
+    * [GeeksForGeeks Ford-Fulkerson Algorithm for Maximum Flow Problem](https://www.geeksforgeeks.org/ford-fulkerson-algorithm-for-maximum-flow-problem/)
